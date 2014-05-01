@@ -1,0 +1,66 @@
+/**************************************************************************/
+/* Misc LESS */
+/**************************************************************************/
+
+img {
+	.img-responsive();
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.col-center {
+	float: none;
+	margin: 0 auto;
+}
+
+/* MODAL */
+
+.modal {
+	@media (min-width: @screen-sm-min) {
+		overflow-y: auto;
+	}
+}
+
+.modal-open {
+	@media (min-width: @screen-sm-min) {
+		overflow-y: auto;
+	}
+}
+
+
+#myModal {
+	@media (min-width: @screen-sm-min) {
+		top: 5%;
+	}
+}
+
+/*body.modal-open .supreme-container{
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+}*/
+
+/* Pop-up Blinking Animation */
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
