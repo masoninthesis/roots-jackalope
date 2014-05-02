@@ -17,11 +17,3 @@ require_once locate_template('/lib/relative-urls.php');   // Root relative URLs
 require_once locate_template('/lib/widgets.php');         // Sidebars and widgets
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
 require_once locate_template('/lib/custom.php');          // Custom functions
-
-function exclude_category($query) {
-if ( $query->is_home() ) {
-$query->set('cat', '-12');
-}
-return $query;
-}
-add_filter('pre_get_posts', 'exclude_category');

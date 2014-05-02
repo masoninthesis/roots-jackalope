@@ -24,7 +24,7 @@
   <div class="row">
     <center>
     <div style="width: 80%;">
-      <iframe onClick="ga('send', 'event', 'video', 'play', 'podcast video');" src="//fast.wistia.net/embed/iframe/3z1tgrpvtk?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
+      <iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/4j775txdig?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
       <script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
     </div>
     </center>
